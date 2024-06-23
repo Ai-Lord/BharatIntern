@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+          <h1>Register</h1>
+          <form method="POST">
+              <div class="txt_field">
+                  <input type="text" id="form_name" name="name" required>
+                  <span></span>
+                  <label>Name</label>
+              </div>
+              <div class="txt_field">
+                  <input type="email" id="form_email" name="email" required>
+                  <span></span>
+                  <label>Email</label>
+              </div>
+              <div class="txt_field">
+                  <input type="password" id="form_pass" name="password" required>
+                  <span></span>
+                  <label>Password</label>
+              </div>
+              <div class="txt_field">
+                  <input type="password" id="form_cpass" name="cpassword" required>
+                  <span></span>
+                  <label>Confirm Password</label>
+              </div>
+              <input name="submit" id="register" type="Submit" value="Sign Up">
+              <div class="signup_link">
+                  Have an Account ? <a href="#">Login Here</a>
+              </div>
+          </form>
+      </div>
+  </div>
+  <script src="index.js"></script>
+  </body>
+</html>
