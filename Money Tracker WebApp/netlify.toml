@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "http://localhost:3000/transactions"
+  to = "https://money-tracker0.netlify.app/transactions"
+  status = 200
+  force = true
