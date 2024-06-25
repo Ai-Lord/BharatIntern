@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect(process.env.mongo_url)
+mongoose.connect("mongodb://localhost:27017/expense-tracker")
 
 const transactionSchema = new mongoose.Schema({
   name: String,
